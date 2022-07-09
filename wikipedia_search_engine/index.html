@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia Search Engine</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="wikipedia.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <main>
+      <header class="search-container">
+        <img src="/wikipedia.png" alt="Wikipedia Logo" />
+
+        <form class="search-form">
+          <button type="submit" title="Pesquisar" class="icon search-ico">
+            <i class="fas fa-search"></i>
+          </button>
+          <input type="search" class="search-input" />
+          <a
+            href="https://en.wikipedia.org/wiki/Special:Random"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon random-ico"
+            title="Artigo aleatório"
+          >
+            <i class="fas fa-random"></i>
+          </a>
+        </form>
+      </header>
+
+      <section class="results"></section>
+      <footer class="name">By Md Nematullah</footer>
+    </main>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
